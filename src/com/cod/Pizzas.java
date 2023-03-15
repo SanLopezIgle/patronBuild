@@ -96,4 +96,15 @@ public class Pizzas {
     public void setRecojida(int recojida) {
         this.recojida = recojida;
     }
+    @Override
+    public String toString() {
+        return "Pizzas{" +
+                "tipoMasa=" + tipoMasa +
+                ", size=" + size +
+                ", rellena=" + rellena +
+                ", cebolla=" + cebolla +
+                ", sinGluten=" + sinGluten +
+                ", recojida=" + recojida +
+                '}';
+    }
 }
